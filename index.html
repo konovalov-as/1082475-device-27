@@ -33,8 +33,8 @@
           <div class="main-header__top">
             <div class="main-header__search-container">
               <form class="main-header__search-form" action="http://echo.htmlacademy.ru" method="get">
-                <label class="visually-hidden" for="searchSite">Поиск по сайту</label>
-                <input class="main-header__search" id="searchSite" type="text" name="main-header__search" placeholder="Поиск по сайту">
+                <label class="visually-hidden" for="search-site">Поиск по сайту</label>
+                <input class="main-header__search" id="search-site" type="text" name="main-header__search" placeholder="Поиск по сайту">
                 <button type="submit" class="main-header__search-button">Найти</button>
               </form>
             </div>
@@ -75,9 +75,9 @@
         <section class="promo-slider">
           <h2 class="visually-hidden">Слайдер с продаваемыми товарами</h2>
 
-          <input class="visually-hidden" type="radio" name="promoSlider" id="slider-1" checked>
-          <input class="visually-hidden" type="radio" name="promoSlider" id="slider-2">
-          <input class="visually-hidden" type="radio" name="promoSlider" id="slider-3">
+          <input class="visually-hidden" type="radio" name="promo-slider" id="slider-1" checked>
+          <input class="visually-hidden" type="radio" name="promo-slider" id="slider-2">
+          <input class="visually-hidden" type="radio" name="promo-slider" id="slider-3">
 
           <div class="promo-slider__control">
             <label for="slider-1" aria-label="Первый"></label>
@@ -241,9 +241,9 @@
           <section class="services-slider">
             <h2 class="visually-hidden">Оказываемый сервис и предоставляемые условия</h2>
 
-            <input class="visually-hidden services-delivery" type="radio" name="serviceSlider" id="services-slider-1" checked>
-            <input class="visually-hidden services-warranty" type="radio" name="serviceSlider" id="services-slider-2">
-            <input class="visually-hidden services-credit" type="radio" name="serviceSlider" id="services-slider-3">
+            <input class="visually-hidden services-delivery" type="radio" name="service-slider" id="services-slider-1" checked>
+            <input class="visually-hidden services-warranty" type="radio" name="service-slider" id="services-slider-2">
+            <input class="visually-hidden services-credit" type="radio" name="service-slider" id="services-slider-3">
 
             <div class="services-slider__buttons">
               <label class="services-slider__btn services-slider__btn--delivery btn-general-w160" for="services-slider-1" tabindex="0">Доставка</label>
@@ -328,10 +328,9 @@
               сможете проверить
               работоспособность покупки. Всякое бывает.</p>
             <p class="contacts__map">
-              <img src="img/map-preview.jpg" alt="Офис компании по адресу ул. Строителей 15, г. Москва" width="560" height="222">
-            </p>
-            <p class="contacts__map-interactive visually-hidden">
-              <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8725f8e901859b7f7953308825252bf3ab3b4ba0a04f04419b6f2d8c5f27ed51&amp;width=560&amp;height=222&amp;lang=ru_RU&amp;scroll=true"></script>
+              <a href="https://yandex.ru/maps/?pt=37.529654,55.686980&z=18" target="blank">
+                <img src="img/map-preview.jpg" alt="Офис компании по адресу ул. Строителей 15, г. Москва" width="560" height="222">
+              </a>
             </p>
             <a class="btn-general btn-general-w260 about-us-contacts__btn contacts__write-to-us" href="">Напишите нам</a>
           </div>
@@ -416,11 +415,11 @@
           <div class="modal__form-container">
             <div class="modal__form-your-name">
               <label for="your-name">Ваше имя:</label>
-              <input class="modal__form-your-name-input" id="your-name" type="text" name="yourName" placeholder="Имя Фамилия">
+              <input class="modal__form-your-name-input" id="your-name" type="text" name="your-name" placeholder="Имя Фамилия">
             </div>
             <div class="modal__form-your-email">
               <label for="your-email">Ваш e-mail:</label>
-              <input class="modal__form-your-email-input" id="your-email" type="text" name="yourEmail" placeholder="email@example.com">
+              <input class="modal__form-your-email-input" id="your-email" type="text" name="your-email" placeholder="email@example.com">
             </div>
           </div>
           <div class="modal__form-text-letter">
@@ -437,7 +436,7 @@
 
     <!-- modal map -->
     <div class="container-narrow">
-      <section class="modal modal__map hidden">
+      <section class="modal modal__map">
         <h2 class="visually-hidden">Наш офис компании на карте</h2>
         <div class="modal__map-container">
           <p class="modal__map-big">
